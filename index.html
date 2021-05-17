@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="looks.css">
+    <title>Haiku</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Haiku Generator</h1>
+
+        <h3>Enter your words. Please seperate syllables with a dash (-)</h3>
+        <h3>Example: ca-pa-bil-i-ty</h3>
+        <h5>If the word is 1 syllable then don't use hyphen. like if the word
+        is "fish" then just type it out like that. </h5>
+
+        <label for="words">Enter the words</label>
+        <input type="text" id="words">
+    </div>
+
+    <button id="enterWord">Add Word</button>
+    <br>
+
+    <button id="generateWord">Generate Haiku</button>
+
+    <p id="firstFive"></p>
+    <br>
+    <p id="seven"></p>
+    <br>
+    <p id="secondFive"></p>
+</body>
+</html>
